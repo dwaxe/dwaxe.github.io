@@ -1,0 +1,30 @@
+---
+---
+
+<head>
+  <meta charset="utf-8">
+  <title>Memorized</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<div>
+  <p class=title>First Words</p>
+
+  <p>
+    {% for quote in site.data.quotes %}
+      <a href="#{{ forloop.index }}"> {{ quote.firstwords }} <br></a>
+    {% endfor %}
+  </p>
+
+  <p class=title>Quotes</p>
+
+  {% for quote in site.data.quotes %}
+    <a name="{{ forloop.index }}"></a>
+    <p class=quote>
+      {% for line in quote.text %}
+        {{ line }}<br>
+      {% endfor %} – {{ quote.author }}
+    </p>
+  {% endfor %}
+
+</div>

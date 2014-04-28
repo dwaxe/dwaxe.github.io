@@ -1,15 +1,12 @@
-<html>
-	<header>
-		<meta charset="utf-8">
-		<title>Darwin Wu</title>
-		<link rel="stylesheet" type="text/css" href="main.css">
-	</header>
-	<body>
-		<div class='title'>
-			Quotes
-		</div>
-		<div class='quote'>
-			insert quote here
-		</div>
-	</body>
-</html>
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,28 @@
+body {
+	background-color: black;
+	color: lightgray;
+	font-style: 'Garamond';
+	font-size: large;
+}
+
+a {
+	color: lightgray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+.quote {
+	font-size: large;
+}
+
+.quote:hover {
+	color: white;
+}
+
+.title {
+	font-size: xx-large;
+	color: white;
+}
