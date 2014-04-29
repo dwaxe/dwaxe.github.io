@@ -1,3 +1,5 @@
 name: Darwinism
 markdown: redcarpet
 pygments: true
+
+permalink: /:title/
