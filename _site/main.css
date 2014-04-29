@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	color: white;
+	font-style: 'Garamond';
+}
+
+.quote::before {
+	font-size: xx-large;
+	content: '“';
+}
+
+.quote {
+	font-size: x-large;
+}
+
+.quote:hover {
+	color: aqua;
+}
+
+.title {
+	font-size: xx-large;
+}
