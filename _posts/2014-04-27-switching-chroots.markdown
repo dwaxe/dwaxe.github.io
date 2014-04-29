@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Switching chroots shortcut"
+title:  "Switching Chroots Shortcut"
+categories: crouton
 date:   2014-04-28 00:35:00
-categories: crouton keyboard shortcut
 ---
 
 I suppose I might as well make a real post at this point, so here goes:
@@ -13,4 +13,4 @@ This keyboard shortcut works seamlessly with vertically arranged workspaces, as 
 
 /realpost
 
-Damn this prose is disappointing. I guess that's technical writing for ya.
+Damn this prose is uninspiring. I guess that's technical writing for ya.
