@@ -5,7 +5,7 @@ body {
 	font-size: large;
 }
 
-@media (min-resolution: 300dpi) { 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     body {
     	font-size: xx-large;
     }
