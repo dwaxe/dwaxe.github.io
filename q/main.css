@@ -2,13 +2,13 @@ body {
 	background-color: black;
 	color: lightgray;
 	font-style: 'Garamond';
-	font-size: xx-large;
+	font-size: large;
 }
 
-@media (min-width: 650px) {
-	body {
-		font-size: large;
-	}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    body {
+    	font-size: xx-large;
+    }
 }
 
 a {
