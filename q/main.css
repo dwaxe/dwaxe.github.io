@@ -2,12 +2,12 @@ body {
 	background-color: black;
 	color: lightgray;
 	font-style: 'Garamond';
-	font-size: large;
+	font-size: xx-large;
 }
 
-@media (max-width: 650px) {
+@media (min-width: 650px) {
 	body {
-		font-size: xx-large;
+		font-size: large;
 	}
 }
 
