@@ -5,6 +5,12 @@ body {
 	font-size: large;
 }
 
+@media (max-width: 650px) {
+	body {
+		font-size: xx-large;
+	}
+}
+
 a {
 	color: lightgray;
 	text-decoration: none;
@@ -12,10 +18,6 @@ a {
 
 a:hover {
 	color: white;
-}
-
-.quote {
-	font-size: large;
 }
 
 .quote:hover {
