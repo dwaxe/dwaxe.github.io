@@ -2,4 +2,4 @@
 layout: post
 ---
 
-This is not quite a triumph
+This is not yet a triumph.
