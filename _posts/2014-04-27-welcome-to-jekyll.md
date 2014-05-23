@@ -23,7 +23,7 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 Here's an example of an image:
 
-![yodawg]({{ site.url }}/assets/abstractWave.png)
+![yodawg]({{ site.url }}/images/abstractWave.png)
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
