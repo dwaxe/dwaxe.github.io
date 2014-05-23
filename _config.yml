@@ -1,5 +1,8 @@
-name: Darwin Christ
+name: Darwin Wu
 markdown: redcarpet
 highlighter: pygments
+permalink: /:title
 
-permalink: /:title/
+tagline: Nothing is forbidden. Everything is permitted.
+
+GitHub: dwaxe
