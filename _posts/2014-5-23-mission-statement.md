@@ -13,3 +13,5 @@ I need this post to remind myself not to put my deepest, darkest secrets on this
 ## Just one thing
 
 /q
+
+If something's not impossible, there must be a way of doing it.
