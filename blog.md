@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /blog/index.html
-cover: post_index.jpg
+cover: post_index.png
 title: Blog
 ---
 

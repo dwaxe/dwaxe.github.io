@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making The Site
-cover: post_index.jpg
+cover: post_index.png
 date:   2014-5-23 10:49:00
 categories: posts
 ---

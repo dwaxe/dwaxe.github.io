@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mission Statement
-cover: post_index.jpg
+cover: post_index.png
 date:   2014-5-23 8:41:00
 categories: posts
 ---

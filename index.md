@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Under Construction
-cover: post_index.jpg
+cover: post_index.png
 ---
 
 ## How it started off

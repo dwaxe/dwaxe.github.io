@@ -1,7 +1,7 @@
 ---
 layout: post
 title: College Subreddit Sentiments
-cover: post_index.jpg
+cover: post_index.png
 date:   2014-5-27 05:09:00
 categories: posts
 ---
