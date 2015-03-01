@@ -6,7 +6,7 @@ cover: post_index.png
 
 ## How it started off
 
-The very first rendition of this website was actually quite impressive. It conveyed my own personal sense of professionalism perfectly, and you must [visit to fully appreciate it](/old).
+The very first rendition of this website was actually quite impressive. It conveyed my own personal sense of professionalism perfectly, and you truly must [visit to fully appreciate it](/old).
 
 ## Research
 
