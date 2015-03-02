@@ -87,6 +87,7 @@
         // Set up key press handling.
         $(window.document).keydown(handleKeyDown);
         container.click(function () {
+            if (cursor === lines.length - 1) { setCursor(0); return; }
             increaseCursor();
         });
         $(window.document).swipe({swipeUp: function () {
