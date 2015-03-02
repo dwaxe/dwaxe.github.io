@@ -26,10 +26,13 @@ p {
 	-webkit-transition: color .75s;
 }
 
+a {
+	color: #F5D77A;
+}
+
 .section {
 	margin: 1em 0;
 }
-
 
 .cursor {
 	color: #fff;
@@ -41,13 +44,11 @@ p {
 	border-color: #FA558A;
 }
 
-
-
-.wrong {
+.flaws {
 	background-color: #444;
 }
 
-.wrong.cursor {
+.flaws .cursor {
 	color: #F5D77A;
 	border-color: #F5D77A;
 	background-color: #222;
