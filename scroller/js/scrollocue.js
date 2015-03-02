@@ -81,15 +81,16 @@
             }
         }
 
-
         // Set cursor at first line
         setCursor(0);
         // Set up key press handling.
         $(window.document).keydown(handleKeyDown);
         container.click(function () {
+            // If at bottom, return to top on click
             if (cursor === lines.length - 1) { setCursor(0); return; }
             increaseCursor();
         });
+        // Mobile swiping
         $(window.document).swipe({swipeUp: function () {
             console.log('swiped up');
             increaseCursor();
