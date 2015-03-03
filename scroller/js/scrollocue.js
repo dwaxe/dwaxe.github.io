@@ -24,7 +24,6 @@
             }
             // Update new cursor position
             cursor = (index >= 0) ? ((index < lines.length) ? index : lines.length - 1) : 0;
-
             if (lines[cursor]) {
                 newElement = $(lines[cursor]);
                 newElement.addClass('cursor');
