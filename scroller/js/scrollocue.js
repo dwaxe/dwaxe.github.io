@@ -98,10 +98,17 @@
             increaseCursor();
         });
         // Mobile swiping
-        $(window.document).swipe({swipeUp: function () {
-            console.log('swiped up');
-            increaseCursor();
-        }, threshold: 30});
+        $(container).swipe({
+            swipeUp: function () {
+                console.log('swiped up');
+                increaseCursor();
+            },
+            swipeDown: function () {
+                console.log('swiped down');
+                decreaseCursor();
+            },
+            threshold: 50
+        });
 
     };
 
