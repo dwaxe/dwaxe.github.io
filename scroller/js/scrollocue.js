@@ -1,3 +1,6 @@
+/*jslint browser: true*/
+/*global $*/
+
 "use strict";
 
 (function (window, $) {
