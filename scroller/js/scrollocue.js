@@ -82,6 +82,14 @@
 
         // Set cursor at first line
         setCursor(0);
+        // Set up element click handling
+        $("p").click(function () {
+            console.log($(this).offset());
+            console.log($(lines[cursor]).offset());
+            if ($(this).offset().top < $(lines[cursor]).offset().top) {
+                decreaseCursor(2);
+            }
+        });
         // Set up key press handling.
         $(window.document).keydown(handleKeyDown);
         container.click(function () {
