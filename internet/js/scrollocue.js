@@ -105,11 +105,9 @@
         // Mobile swiping
         $(container).swipe({
             swipeUp: function () {
-                console.log('swiped up');
                 increaseCursor();
             },
             swipeDown: function () {
-                console.log('swiped down');
                 decreaseCursor();
             },
             threshold: 50,
