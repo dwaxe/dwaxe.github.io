@@ -114,7 +114,7 @@
             cancelThreshold: 15
         });
 
-        $('top').click(function () {
+        $('#top').click(function () {
             setCursor(0);
         });
 
