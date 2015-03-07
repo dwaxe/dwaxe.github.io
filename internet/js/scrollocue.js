@@ -114,6 +114,10 @@
             cancelThreshold: 15
         });
 
+        $('top').click(function () {
+            setCursor(0);
+        });
+
     };
 
 
