@@ -54,24 +54,20 @@
         function handleKeyDown(event) {
             switch (event.which) {
             case 40: // Arrow down
+            case 74: // "j": down
             case 32: // Space
                 increaseCursor();
                 event.preventDefault();
                 break;
             case 38: // Arrow up
+            case 75: // "k": up
                 decreaseCursor();
                 event.preventDefault();
                 break;
-            case 74: // "j": down.
-                increaseCursor();
-                break;
-            case 75: // "k": up.
-                decreaseCursor();
-                break;
-            case 49: // "1": jump to first.
+            case 49: // "1": jump to first
                 setCursor(0);
                 break;
-            case 82: // "r": quick reset.
+            case 82: // "r": quick reset
                 container.css('top', 0);
                 setCursor(0);
                 break;
