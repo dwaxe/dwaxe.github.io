@@ -20,10 +20,10 @@ body {
 a {
 	color: lightgray;
 	text-decoration: none;
-	-moz-transition: color 1s ease-in;
-	-o-transition: color 1s ease-in;
-	-webkit-transition: color 1s ease-in;
-	transition: color 1s ease-in;
+	-moz-transition: color 0.5s ease-in;
+	-o-transition: color 0.5s ease-in;
+	-webkit-transition: color 0.5s ease-in;
+	transition: color 0.5s ease-in;
 }
 
 a:hover {
@@ -31,10 +31,10 @@ a:hover {
 }
 
 .quote {
-	-moz-transition: color 1s ease-in;
-	-o-transition: color 1s ease-in;
-	-webkit-transition: color 1s ease-in;
-	transition: color 1s ease-in;
+	-moz-transition: color 0.5s ease-in;
+	-o-transition: color 0.5s ease-in;
+	-webkit-transition: color 0.5s ease-in;
+	transition: color 0.5s ease-in;
 }
 
 .quote:hover {
