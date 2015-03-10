@@ -18,6 +18,8 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="icon" type="image/ico" href="/images/favicon.ico">
+
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -45,11 +47,8 @@
 
 				{% for quote in site.data.quotes %}
 				<section>
-					<section><p>{{ quote.firstwords }}</p></section>
-					<section>
-					{% for line in quote.text %}
-						{{ line }}<br>
-					{% endfor %} – {{ quote.author }}</section>
+					<section>{{ quote.firstwords }}</section>
+					<section>{{ quote.author }}</section>
 				</section>
 				{% endfor %}
 
