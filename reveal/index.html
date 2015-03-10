@@ -6,10 +6,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Memory</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="What's in a word?">
+		<meta name="author" content="Darwin Wu">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -18,9 +18,6 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
-
-		<!-- Code syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -48,7 +45,11 @@
 
 				{% for quote in site.data.quotes %}
 				<section>
-					<p>{{ quote.firstwords }}</p>
+					<section><p>{{ quote.firstwords }}</p></section>
+					<section>
+					{% for line in quote.text %}
+						{{ line }}<br>
+					{% endfor %} – {{ quote.author }}</section>
 				</section>
 				{% endfor %}
 

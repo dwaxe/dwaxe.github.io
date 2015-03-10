@@ -1,7 +1,7 @@
 body {
 	background-color: black;
 	color: lightgray;
-	font-family: 'Garamond';
+	font-family: 'Times New Roman', Times, serif;
 	font-size: large;
 }
 
@@ -20,10 +20,10 @@ body {
 a {
 	color: lightgray;
 	text-decoration: none;
-	-moz-transition: color 0.5s ease-in;
-	-o-transition: color 0.5s ease-in;
-	-webkit-transition: color 0.5s ease-in;
-	transition: color 0.5s ease-in;
+	-moz-transition: color 0.7s ease-in;
+	-o-transition: color 0.7s ease-in;
+	-webkit-transition: color 0.7s ease-in;
+	transition: color 0.7s ease-in;
 }
 
 a:hover {
@@ -31,10 +31,10 @@ a:hover {
 }
 
 .quote {
-	-moz-transition: color 0.5s ease-in;
-	-o-transition: color 0.5s ease-in;
-	-webkit-transition: color 0.5s ease-in;
-	transition: color 0.5s ease-in;
+	-moz-transition: color 0.7s ease-in;
+	-o-transition: color 0.7s ease-in;
+	-webkit-transition: color 0.7s ease-in;
+	transition: color 0.7s ease-in;
 }
 
 .quote:hover {
