@@ -87,10 +87,10 @@
 
         // Click handling
         container.click(function (event) {
-            // If clicking above current active element, scroll up by one
-            if (event.pageY < $(lines[cursor]).offset().top) { return decreaseCursor(); }
-            // Else just scroll down
-            increaseCursor();
+            // If clicking below current active element, scroll down by one
+            if (event.pageY > $(lines[cursor]).offset().top || cursor === 0) { return increaseCursor(); }
+            // Else just scroll up
+            decreaseCursor();
         });
 
         // Double click to go from bottom to top
