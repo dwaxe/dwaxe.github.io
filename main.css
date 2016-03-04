@@ -1,0 +1,48 @@
+body {
+	background-color: black;
+	color: lightgray;
+	font-family: "Merriweather", Times, serif;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	body {
+		color: white;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+	body {
+		font-size: xx-large;
+	}
+}
+
+a {
+	color: lightgray;
+	text-decoration: none;
+	-moz-transition: color 0.5s ease-in;
+	-o-transition: color 0.5s ease-in;
+	-webkit-transition: color 0.5s ease-in;
+	transition: color 0.5s ease-in;
+}
+
+a:hover {
+	color: white;
+}
+
+.quote {
+	-moz-transition: color 0.5s ease-in;
+	-o-transition: color 0.5s ease-in;
+	-webkit-transition: color 0.5s ease-in;
+	transition: color 0.5s ease-in;
+}
+
+.quote:hover {
+	color: white;
+}
+
+.title {
+	font-size: xx-large;
+	color: white;
+}
