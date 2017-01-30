@@ -1,6 +1,6 @@
 name: Darwin Wu
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:title
 
 tagline: Nothing is forbidden. Everything is permitted.
