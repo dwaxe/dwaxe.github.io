@@ -1,5 +1,5 @@
 name: Darwin Wu
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 permalink: /:title
 
